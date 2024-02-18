@@ -29,18 +29,21 @@ Now any key to `Continue?` and observe the `%CPU` and `#TH`. And note how the ti
 Note that my MBP quad with Hyperthreading gives me 8 virtual cores. But the # of threads yields worse performance after 4.
 
 ```
+
       $ node threads.js
       Continue?
 
-      numThreads 1 time = 15922
-      numThreads 2 time = 8114
-      numThreads 3 time = 6266
-      numThreads 4 time = 5406
-      numThreads 5 time = 5539
-      numThreads 6 time = 5502
-      numThreads 7 time = 5627
-      numThreads 8 time = 5603
-      numThreads 9 time = 5628
+      numThreads 1 time = 15855
+      numThreads 2 time = 7970
+      numThreads 3 time = 6148
+      numThreads 4 time = 5112
+      numThreads 5 time = 5269
+      numThreads 6 time = 5466
+      numThreads 7 time = 5437
+      numThreads 8 time = 5422
+      numThreads 9 time = 5491
+      numThreads 10 time = 5574
+
 ```
 
 ```

@@ -71,7 +71,7 @@ async function parent() {
   // run the same task for 1 thru 10 threads so we can see
   // when additional threads pay off and when they don't
 
-  for (let numThreads = 1; numThreads < 10; numThreads++) {
+  for (let numThreads = 1; numThreads < 11; numThreads++) {
     const start = Date.now()
     const workerPromises = []
     for (let threadNum = 0; threadNum < numThreads; threadNum++) {
